@@ -1,0 +1,21 @@
+# Terraform generated directories and files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+.terraform/modules/
+.terraform/plugins/
+.terraform/providers/
+
+# Terraform key files (relative to root)
+modules/ec2/terraform_key
+modules/ec2/terraform_key.pub
+
+# Other common Terraform ignores
+*.tfvars
+.terraformrc
+crash.log
+override.tf
+override.tf.json
+.vscode/
+.idea/
